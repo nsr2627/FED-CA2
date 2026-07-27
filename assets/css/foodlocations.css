@@ -1,0 +1,22 @@
+/* Custom wireframe background colors */
+body {
+  background-color: #e4bf6a; 
+}
+
+.custom-card-bg {
+  background-color: #f3e7cc; 
+  border-radius: 12px;
+}
+
+.custom-img-bg {
+  background-color: #e5e0d8;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+/* Hover style for the Explore buttons */
+.btn-outline-dark:hover {
+  background-color: #26743d;
+  color: #fff;
+}
