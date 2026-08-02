@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Comparison</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="foodcomparison.css">
+</head>
+<body>
+
+  <!-- Main Content Container -->
+  <main class="container my-5">
+    
+    <section class="mb-4">
+      <h1 class="fw-bolder">Food Comparison</h1>
+      <p class="text-secondary">Compare popular meals and prices easily.</p>
+    </section>
+
+    <!-- Table Container Section -->
+    <section class="table-responsive custom-table-wrapper p-2 border border-dark border-2 rounded-4">
+      <table class="table custom-table align-middle mb-0" id="comparisonTable">
+        <thead>
+          <tr>
+            <th scope="col" class="fw-bold">Food</th>
+            <th scope="col" class="fw-bold">Price</th>
+            <th scope="col" class="fw-bold">Area</th>
+            <th scope="col" class="fw-bold">Type</th>
+            <th scope="col" class="fw-bold">Rating</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody">
+         
+        </tbody>
+      </table>
+    </section>
+
+  </main>
+
+  <script src="foodcomparison.js"></script>
+</body>
+</html>

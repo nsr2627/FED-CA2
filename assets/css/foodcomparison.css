@@ -1,0 +1,47 @@
+/* Base Background & Wireframe Aesthetics */
+body {
+  background-color: #c7a451; 
+  color: #1a1a1a;
+}
+
+.custom-table-wrapper {
+  background-color: #f7f4ed;
+}
+
+/* Custom Table Wireframe Styling */
+.custom-table {
+  background-color: transparent;
+  border-collapse: collapse;
+}
+
+.custom-table th, 
+.custom-table td {
+  background-color: transparent;
+  border: 1px solid #333333;
+  padding: 10px 16px;
+}
+
+.custom-table th {
+  font-size: 1.05rem;
+}
+
+.custom-table td {
+  font-size: 0.95rem;
+}
+
+/* Rounded borders for the outer table container elements */
+.custom-table thead tr:first-child th:first-child {
+  border-top-left-radius: 8px;
+}
+
+.custom-table thead tr:first-child th:last-child {
+  border-top-right-radius: 8px;
+}
+
+.custom-table tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 8px;
+}
+
+.custom-table tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 8px;
+}
