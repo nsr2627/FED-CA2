@@ -7,94 +7,105 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
-        <iframe class="header-frame border-0 d-block" src="./header.html"></iframe>
+       <iframe class="header-frame border-0 d-block w-100" src="./header.html"></iframe>
 
-        <div class="container-fluid">
-            <h1 class="fw-bold align-item-center"> Western Food</h1>
-            <p> Hearty meals to satisfy your cravings.</p>
+        <div class="container">
+            <h1 class="fw-bold text-center fs-1"> Western Food </h1>
+            <p class="text-center fs-4"> Hearty meals to satisfy your cravings.</p>
         </div>  
 
         <!-- Apply Filters -->
-        <main>
-           <aside>
-                <h2> Filter </h2>
-                <h3> Price </h3>
-                <label>
-                    <input type="checkbox">
-                    Under $5
-                </label>
-                <label>
-                    <input type="checkbox">
-                    $5 - $10
-                </label>
-                <label>
-                    <input type="checkbox">
-                    Above $10
-                </label>
+        <main class="container my-4">
+            <a link href=" "></a>
+           <aside class="p-4 rounded-4 shadow-sm">
+                <h2 class="fw-bold mb-4 text-dark"> Filter </h2>
+                <h4 class="fw-bold mb-2 text-dark"> Price </h4>
+                    <div>
+                        <input class="form-check-input" type="checkbox" id="under5">
+                        <label class="form-check-label" for="under5"> Under $5 </label>
+                    </div>
+                      
+                    <div>
+                        <input class="form-check-input" type="checkbox" id="5to10">
+                        <label class="form-check-label" for="under5"> $5 - $10 </label>
+                    </div>
 
-                <h3> Area </h3>
-                <label>
-                    <input type="checkbox">
-                    Bugis
-                </label>
-                <label>
-                    <input type="checkbox">
-                    Chinatown
-                </label>
-                <label>
-                    <input type="checkbox">
-                    Clementi
-                </label>
-                <label>
-                    <input type="checkbox">
-                    Dover
-                </label>
-                <label>
-                    <input type="checkbox">
-                    Orchard
-                </label>
+                    <div>
+                        <input class="form-check-input" type="checkbox" id="above10">
+                        <label class="form-check-label" for="under5"> Above $10 </label>
+                    </div>
+
+
+                <h4 class="fw-bold mb-2 text-dark"> Area </h4>
+                
+                    <div>
+                        <input class="form-check-input" type="checkbox" id="Bugis">
+                        <label class="form-check-label" for="Bugis"> Bugis </label>
+                    </div>
+
+                    <div>
+                        <input class="form-check-input" type="checkbox" id="Clementi">
+                        <label class="form-check-label" for="Clementi"> Clementi </label>
+                    </div>
+
+                    <div>
+                        <input class="form-check-input" type="checkbox" id="Chinatown">
+                        <label class="form-check-label" for="Chinatown"> Chinatown </label>
+                    </div>
+
+                    <div>
+                        <input class="form-check-input" type="checkbox" id="Dover">
+                        <label class="form-check-label" for="Dover"> Dover </label>
+                    </div>
+
+                    <div>
+                        <input class="form-check-input" type="checkbox" id="Orchard">
+                        <label class="form-check-label" for="Orchard"> Orchard </label>
+                    </div>
+
+                <button class="btn btn-warning"> Apply Filter </button>
            </aside>
 
         </main>
         <div> 
             <article class="card-body">
-            <img src="burger.jpg" alt="Cheeseburger">
+            <img src="../assets/images/burger.jpg" alt="Cheeseburger">
             <h3 class="card-text"> Cheeseburger </h3>
             <p> $6.50 </p>
             <p> Clementi </p>
             </article>
 
             <article class="card-body">
-            <img src="chicken-chop.jpg" alt="Chicken Chop">
+            <img src="../assets/images/chicken-chop.jpg" alt="Chicken Chop">
             <h3 class="card-text"> Chicken Chop </h3>
             <p> $7.50 </p>
             <p> Dover </p>
             </article>
 
             <article class="card-body">
-            <img src="aglio-olio.jpg" alt="Aglio Olio">
-            <h3 class="card-text"> Aglio Olio  </h3>
+            <img src="../assets/images/bolognese.jpg" alt="bolognese">
+            <h3 class="card-text"> Bolognese Pasta  </h3>
             <p> $5.50 </p>
             <p> Orchard </p>
             </article>
 
             <article class="card-body">
-            <img src="fish-and-chips.jpg" alt="Fish and Chips">
+            <img src="../assets/images/fish-and-chips.jpg" alt="Fish and Chips">
             <h3 class="card-text"> Fish and Chips </h3>
             <p> $6.50 </p>
             <p> Bugis </p>
             </article>
 
             <article class="card-body">
-            <img src="carbonara.jpg" alt="Cheeseburger">
-            <h3 class="card-text"> Cheeseburger </h3>
+            <img src="../assets/images/carbonara.jpg" alt="Carbonara">
+            <h3 class="card-text"> Carbonara Pasta </h3>
             <p> $6.00 </p>
             <p> Chinatown </p>
             </article>
 
             <article class="card-body">
-            <img src="grilled-chicken.jpg" alt="Grilled Chicken">
-            <h3 class="card-text"> Grilled Chicken </h3>
+            <img src="../assets/images/pizza.jpg" alt="Pizza">
+            <h3 class="card-text"> Pizza </h3>
             <p> $7.00 </p>
             <p> Clementi </p>
             </article>
@@ -110,7 +121,7 @@
         </div>
 
 
-    <iframe class="footer-frame border-0 d-block" src="footer.html"></iframe>
+    <iframe class="footer-frame border-0 d-block w-100" src="footer.html"></iframe>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
 </body>

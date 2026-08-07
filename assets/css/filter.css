@@ -1,0 +1,24 @@
+/* Cream off-white background matching the screenshot */
+.bg-light-orange {
+    background-color: #fffaf4;
+    border: 1px solid #f2e9df;
+}
+
+/* Bright orange button style */
+.btn-orange {
+    background-color: #ff6b00;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-orange:hover {
+    background-color: #e05e00;
+    color: white;
+}
+
+/* Space out the checkboxes nicely */
+.form-check-input {
+    border-color: #ccc;
+    cursor: pointer;
+}
